@@ -1,0 +1,17 @@
+body {
+font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+line-height: 1.8;
+color: #222;
+background: #99bde1;
+max-width: 72ch;
+margin: 0 auto;
+padding: 1rem;
+}
+* {box-sizing: border-box; }
+html, body {margin: 0; padding: 0; }
+
+@media (min-width: 700px)
+{
+body {padding: 2rem; }
+form {max-width: 600px; }
+}
